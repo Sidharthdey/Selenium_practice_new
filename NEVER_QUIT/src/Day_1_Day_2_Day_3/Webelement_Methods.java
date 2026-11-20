@@ -13,8 +13,8 @@ public class Webelement_Methods {
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
 
-		// Webelement methods - sendkeys(), click(), clear(), gettext()27. getAttribute(), getCssValue(), isDisplayed(), isEnabled(), isSelected()
-
+		// Webelement methods - sendkeys(), click(), clear(), gettext(). getAttribute(), getCssValue(), isDisplayed(), isEnabled(), isSelected()
+		
 
 		// Xpath is also explained here
 
@@ -23,7 +23,7 @@ public class Webelement_Methods {
 
 		driver.findElement(By.xpath("//button[@class= 'px-4 loginBtn w-100 btn btn-primary']")).click();
 
-
+		
 	
 	
 	
