@@ -15,7 +15,7 @@ public class Take_Screenshot {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.roboform.com/filling-test-all-fields");
+		driver.get("https://testing.qaautomationlabs.com/index.php");
 		
 		Thread.sleep(3000);
 		

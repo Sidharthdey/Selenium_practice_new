@@ -24,9 +24,7 @@ public class Mouse_hover {
 		
 		driver.findElement(By.xpath("//a[contains(@href, 'yout_ya')]")).click();
 		
-		
-		
-		
+	
 	}
 
 }
