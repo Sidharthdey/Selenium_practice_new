@@ -28,7 +28,7 @@ public class NewTab_NewWindow_NewBrowser_Lightbox {
 		System.out.println(test_me);
 		System.out.println(no_me);
 		
-		driver.switchTo().window(no_me);  //We have to switch to the child window to perfrom action in it
+		driver.switchTo().window(no_me);  //We have to switch to the child window to perform action in it
 		driver.findElement(By.id("nameInput")).sendKeys("Sidharth Dey");
 		Thread.sleep(3000);
 		driver.switchTo().window(no_me).close();
