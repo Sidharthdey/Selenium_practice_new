@@ -21,7 +21,7 @@ public class Automate_checkbox {
 		//------IF YOU WANT TO WRITE WITH WebElement THEN WRITE LIKE THIS------
 		WebElement we = driver.findElement(By.id("myCheckbox"));
 		we.click();   
-		
+		System.out.println(we.isSelected());
 		
 		
 		
